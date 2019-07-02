@@ -1,0 +1,71 @@
+body:lang(zh-CN) {
+  font-family: "Aktiv Grotesk W01 SC Regular", sans-serif;
+}
+
+body {
+  color: #4c4c4c;
+  line-height: 1.5em;
+  font-style: normal;
+}
+
+@media screen and (min-width: 64em) {
+  body {
+    background: #fff;
+  }
+}
+.header-top-row{
+    width: 100%; 
+    height: 32px;
+    background:#006564;
+}
+
+.header-top-row-wrapper{
+    width: 960px;
+    height: 100%;
+    font-family: Microsoft YaHei;
+    margin-left: auto;
+    margin-right: auto;
+}
+.left-item-group{
+    display: inline-block;
+    float: left;
+}
+.right-item-group{
+    display: inline-block;
+    float: right;
+}
+a:link{
+    text-decoration:none;
+}
+a:hover{text-decoration:underline;}
+
+.a-item{
+    color: #fff;
+    text-align: center;
+}
+
+.header-bottom-row{
+    width: 100%; 
+    height: 72.2px;
+}
+.parsys{
+    width: 100%;
+    height: 928px;
+    color: #fff;
+    background: #4c4c4c;
+}
+.tertiarypar{
+    width: 100%;
+    height: 2324.5px;
+    background: pink;
+}
+
+
+.responsive-footer-container{
+    width:1352.4px;
+    height: 583.16px;
+    color: #fff;
+    background: #4c4c4c;
+    margin-left:auto; 
+    margin-right:auto;
+}
