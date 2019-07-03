@@ -1,0 +1,23 @@
+.share-banner-wrapper{
+    height: 48.1px;
+    background: #ebedec;
+    border-bottom: 1px solid #d7d7d7;
+    border-top: 1px solid #d7d7d7;
+    font-size: 16px;
+}
+.share-toolbox{
+    width: 100%;
+    text-align: center;
+}
+.share-toolbox{
+    width: 924.73px;
+    height: 26.1px;
+    display: block;
+    margin:0.625em auto;
+}
+.share-lable{
+    margin: 0 2.8%;
+    color: #4c4c4c;
+    font-size: 1em;
+    font-weight: 300;
+}
