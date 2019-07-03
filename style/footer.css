@@ -13,11 +13,31 @@
     width: 924.73px;
     height: 26.1px;
     display: block;
-    margin:0.625em auto;
+    margin:0.8em auto;
 }
 .share-lable{
+    display: inline-block;
     margin: 0 2.8%;
     color: #4c4c4c;
     font-size: 1em;
-    font-weight: 300;
+    vertical-align: middle;
+}
+.share-button{
+    color: #4c4c4c;
+    cursor: pointer;
+    padding-left: 2.8%;
+    padding-right: 2.8%;
+    vertical-align: middle;
+}
+.section-wrapper-bt{    
+    min-height: 33rem;
+    display: block;
+    background: rebeccapurple;
+}
+.footer-container{
+    max-width: 960px;
+    margin: 0 auto 2.5em;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: red;
 }
