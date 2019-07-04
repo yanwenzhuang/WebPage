@@ -1,0 +1,69 @@
+.parsys{
+    width: 100%;
+    height: 770px;
+    color: #fff;
+    background: #4c4c4c;
+}
+.image{
+    widows: 100%;
+    height: 490px;
+    /* background: rgb(126, 173, 235); */
+    background-image: url(../images/airImage.PNG);
+}
+.message-wrapper{
+    width: 960px;
+    height: 490px;
+    margin: 0 auto;
+}
+/* a:-webkit-any-link {
+    cursor: pointer;
+} */
+.headline{
+    font-family: 'Aktiv Grotesk W01 SC Light',sans-serif;
+    font-size: 23px;
+    line-height: 1.32;
+    margin: 0 0 .4375em;
+    color: #fff;
+}
+.call-to-action{
+    width: 369.38px;
+    height: 15px;
+}
+.fare{
+    font-family: 'Aktiv Grotesk W01 SC Light';
+    font-size: 20px;
+    line-height: 1.32;
+    margin: 0 0 .4375em;
+    color: #fff;
+}
+.btn-call-to-action{
+    font-family: 'Aktiv Grotesk W01 SC Light',sans-serif;
+    margin-top: 1.5em;
+    display: inline-block;
+    color: #0f748f;
+    background: #fff;
+    height: auto;
+    padding: .4em 1.25em;
+    font-weight: 900;
+}
+.section-content{
+    width:370px;
+    padding: 1.5em;
+    position: absolute;
+    margin-top: 70px;
+    background: rgba(0,101,100,0.91) 100%;
+}
+.detail{
+    font-weight: 100;
+}
+.opt-cue{
+    display: inline-block;
+    background: rgba(255,255,255,0.9);
+    color: #0f748f;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 20rem;
+    margin-left: 415px;
+    padding: 5px 19px;
+}
