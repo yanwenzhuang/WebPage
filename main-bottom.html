@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style/main-top.css" />
+    <link rel="stylesheet" href="icomoon/style.css" />
+    <title>Main</title>
+</head>
+<body>
+    <div class="parsys">
+       <div class="image">
+        
+         <div class="message-wrapper">
+            <a class="section-content">
+                <div class="headline">
+                    <b>"国泰学生优惠" —— 给你留学之旅<br>的"高配"</b>
+                </div>
+                <div class="call-to-action"></div>
+                <div class="fare">
+                    <b>单程含税CNY2,518元*起,即可飞往“欧、美、澳、新”等热门留学目的地</b>
+                </div>
+                <div class="detail">
+                    <br>
+                    <b>*受细则及条款限制。</b>
+                </div>
+                <div class="btn-call-to-action">立即预定</div>
+            </a>
+
+            <a class="opt-cue fadeIn">
+                <b>浏览更多优惠</b>
+                <span class="opt-arrow">
+                    <i class="icon-home3"></i>
+                </span>
+            </a>
+            <div class="home-tabs">
+                <ul class="tabs">
+                    <li>
+                        <a id="tab-active" aria-selected="true">
+                            <div class="span-margin">预定行程</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <div class="span-margin">预办登记</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <div class="span-margin">管理行程</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <div class="span-margin">航班状况</div>
+                        </a>
+                    </li>
+                </ul>
+            </div> 
+         </div> 
+        </div>
+
+       <div class="book-trip-tab-panel">
+          <div class="book-trip">
+             <div class="trip-type-selection">
+                <input type="radio" name="trip-type" id="flights" value="0" checked="checked">
+                <label for="flights" class="label-color">
+                    <i class="icon-airplane"></i>
+                    <span class="span-color">航班</span>
+                </label>
+                <input type="radio" name="trip-type" id="hotels" value="1">
+                <label for="hotels" class="label-color">
+                    <i class="icon-location-hotel"></i>
+                    <span class="span-color">酒店</span>
+                </label>
+                <input type="radio" name="trip-type" id="package" value="2">  
+                <label for="hotels" class="label-color">
+                    <i class="icon-airplane"></i>
+                    <i class="icon-location-hotel"></i>
+                    <span class="span-color">航班+酒店</span>
+                </label> 
+            </div>
+
+            <div id="book-trip-flight" class="trip-type-panel parbase panel-active panel-open">
+                <div class="flight-booking-panel">
+                    <form action="#" method="POST" >
+                        <div class="book-trip-return-standalone">
+                            <input type="radio" id="round-trip" name="round-trip"
+                             class="ui-radio" value="R" checked="checked">
+                            <label class="radio-label">往返</label>
+                            <input type="radio" id="one-way" name="round-trip"
+                             class="ui-radio" value="O">
+                            <label class="radio-label">单程</label>
+                        </div>
+                        <ul class="book-trip-extras-medium-up">
+                            <li class="trip-redeem"><a href="#"><span>兑换航班机票</span></a></li>
+                            <li><a href="#"><span>多座城市/过境</span></a></li>
+                        </ul>
+
+                        <div class="flight-booking">
+                            <div class="flight-depart">
+                                <div class="field-group">
+                                    <label for="depart-label" class="lable-filled">出发地</label><br>
+                                    <input type="text" id="depart-label" name="depart-label" 
+                                     class="input-filled" placeholder="北京，(PEK)">
+                                </div>
+                            </div>
+                            <div class="flight-arrive">
+                                    <div class="field-group">
+                                            <label for="depart-label" class="lable-filled">目的地</label><br>
+                                            <input type="text" id="depart-label" name="depart-label" 
+                                             class="input-filled" placeholder="目的地">
+                                        </div>
+                            </div>
+                        </div>
+
+                        <div class="flight-tooltip">
+                            <div class="flight-cell">
+                                    <div class="field-group">
+                                        <span class="span-filled">出发日期</span>
+                                            <button class="depart-date">
+                                                <span>2019年7月5日 星期五</span>
+                                            </button>
+                                    </div>
+                            </div>
+                            <div class="flight-cell-border">
+                                    <div class="field-group">
+                                            <span class="span-filled">回程日期</span>
+                                                <button class="depart-date">
+                                                    <span>2019年7月5日 星期五</span>
+                                                </button>
+                                    </div>
+                            </div>
+                            <div class="flight-cell-border">
+                                    <div class="field-group">
+                                            <span class="span-filled">乘客/客舱级别</span>
+                                            <button class="depart-date">
+                                                    <span>1 乘客/经济舱</span>
+                                                </button>
+                                    </div>
+                            </div>
+                            <div class="flight-cell-border">
+                                    <div class="field-group">
+                                            <label for="depart-label" class="lable-filled">优惠编号(可选)</label><br>
+                                            <input type="text" id="depart-label" name="depart-label" 
+                                             class="input-number" placeholder="优惠编号(可选)">
+                                             <i class="icon-earth"></i>
+                                    </div>
+                                
+                            </div>
+                            <div class="flight-cell-border flight-arrive-color">
+                                <button class="button-submit">
+                                    <span>搜索航班</span>
+                                    <i class="icon-home3"></i>
+                                </button>
+                            </div>
+                        </div>
+
+
+                        
+                    </form>
+                </div>
+            </div>
+
+
+
+
+            <div id="book-trip-hotel" class="trip-type-panel parbase">
+                     
+            </div>
+
+            <div id="book-trip-package" class="trip-type-panel parbase">
+                     
+            </div>
+
+
+          </div>
+       </div>
+
+
+
+
+
+    </div>
+</body>
+</html>
