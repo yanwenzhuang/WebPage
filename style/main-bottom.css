@@ -1,0 +1,13 @@
+.section-one{
+    width: 960px;
+    height: 761.5px;
+    background: #fff;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    background: #0f748f;
+    font-size: 24px;
+    color: #4c4c4c;
+}
