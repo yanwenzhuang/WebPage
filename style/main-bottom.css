@@ -6,8 +6,36 @@
 }
 .header{
     width: 100%;
+    height: 38px;
     text-align: center;
-    background: #0f748f;
+    background: pink;
     font-size: 24px;
     color: #4c4c4c;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.description-multiple-origins{
+    font-family: 'Aktiv Grotesk W01 SC Light',sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+}
+.description-city{
+    display: inline-block;
+    position: relative;
+    border: 1px solid transparent;
+}
+.description{
+    vertical-align: middle;
+    color: #0f748f;
+    font-weight: 550;
+}
+.destination-list{
+    width: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    opacity: 0;
+    font-size: 16px;
+}
 }
