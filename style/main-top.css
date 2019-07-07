@@ -28,7 +28,7 @@
     margin: 0 0 .4375em;
     color: #fff;
 }
-.call-to-action{
+.call-action{
     width: 369.38px;
     height: 15px;
 }
@@ -57,7 +57,7 @@
     margin-top: 70px;
     background: rgba(0,101,100,0.91) 100%;
 }
-.detail{
+.maintop-detail{
     font-weight: 100;
 }
 .opt-cue{
