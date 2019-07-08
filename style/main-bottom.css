@@ -87,11 +87,13 @@
 .item-left{
     width: 50%;
     float: left;
+    font-family: 'Aktiv Grotesk W01 SC Regular',sans-serif;
 }
 .item-right{
     width: 50%;
     float: right;
     text-align: right;
+    font-family: 'Aktiv Grotesk W01 SC Regular',sans-serif;
 }
 .miscellenous{
     margin-top: 2px;
@@ -129,6 +131,7 @@
     line-height: 1.415;
     color: #4c4c4c;
     min-height: 2.72em;
+    font-size: 12px;
 }
 .category{
     font-size: 14px;
@@ -320,11 +323,10 @@
     position: relative;
     margin-bottom: 14px;
 }
-.ui-radio{
-   
-}
+
 .member-label{
     margin-right: 35px;
+    color: #0f748f;
 }
 .form-warp{
     width: 720px;
