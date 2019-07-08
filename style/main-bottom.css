@@ -1,14 +1,12 @@
 .section-one{
     width: 960px;
     height: 745px;
-    background: #fff;
     margin: 0 auto;
 }
 .header{
     width: 100%;
     height: 38px;
     text-align: center;
-    background: pink;
     font-size: 24px;
     color: #4c4c4c;
     padding-top:20px;
@@ -187,7 +185,7 @@
     font-family: 'Aktiv Grotesk W01 SC Light',sans-serif;
     font-size: 24px;
     color:#4c4c4c;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     margin-top: 10px;
 }
 .row{
@@ -228,7 +226,6 @@
 .content{
     width: 302px;
     border: 1px solid #ebedec;
-    background: #fff;
 }
 .picture-promotion{
     flex: 1 0 auto;
@@ -260,17 +257,149 @@
 .opt-travel-extra{
     width: 960px;
     height: 160px;
-    background: #c6c2c1;
-    margin: 20px auto 0; 
+    margin: 35px auto 0; 
 }
 .col-md-2{
     width: 49.5%;
     display: inline-block;
     position: relative;
+    background-color: #F9F9F9;
+    margin-bottom: 5px;
 }
 .col-li{
     color: #0f748f;
 }
+.opt-arrow-icon{
+    border: 1px solid #4c4c4c;
+    border-radius: 17px;
+    display: inline-block;
+    width: 20px;
+    margin: 8px 10px;
+    padding-left: 5px;
+    height: 25px;
+}
+.opt-arrow-div{
+    display: inline-block;
+    font-size: 18px;
+    width: 85%;
+    vertical-align: middle;
+}
+.subscrie-travel{
+    width: 960px;
+    height: 500px;
+    margin:0 auto;
+}
+.subscribe-newsletter-wrapper{
+    margin: 38px auto 0;
+    width: 75%;
+    height: 500px;
+}
+.subscrie-header{
+    margin: 0 auto 1rem;
+    width: 100%;
+    text-align: center;
+    line-height: 1.14;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Aktiv Grotesk W01 Light1370681',sans-serif;
+    color: #4c4c4c;
+}
+.sub-header{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'Aktiv Grotesk W01 Regular',sans-serif;
+    line-height: 1.35;
+    margin-bottom: 1.25rem;
+}
+.member-wrapper{
+    margin-bottom: 10px;
+}
+.radio-group{
+    position: relative;
+    margin-bottom: 14px;
+}
+.ui-radio{
+   
+}
+.member-label{
+    margin-right: 35px;
+}
+.form-warp{
+    width: 720px;
+    height: 253px;
+}
+.customer-select-wrapper{
+    width: 31%;
+    height: 50px;
+    position: relative;
+    display: block;
+    float: left;
+    border: 1px solid #c6c2c1;
+    margin-bottom: 13px;
+    margin-right: 10px;
+}
+.cx-inputfield{
+    width: 32%;
+    height: 50px;
+    position: relative;
+    display: block;
+    float: left;
+    border: 1px solid #c6c2c1;
+    margin-right: 10px;
+}
+.country-select{
+    width: 98.7%;
+    height: 50px;
+    position: relative;
+    display: block;
+    float: left;
+    margin-bottom: 13px;
+    border: 1px solid #c6c2c1;
+}
+.cx-input{
+    width: 203px;
+    height: 43px;
+    margin-left: 15px;
+    border: none;
+    margin-top: 3px;
+}
+.select-input{
+    width: 630px;
+    height: 43px;
+    margin-left: 15px;
+    border: none;
+    margin-top: 3px;
+}
+.country-select-button{
+    border: none;
+    color: #4c4c4c;
+    margin-top: 225px;
+    margin-left: -469px;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+}
+.custom-select-control{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 100%;
+    color: #4c4c4c;
+    opacity: 0;
+}
+.select-icon{
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    left: 192px;
+    top: 0;
+    background: #c6c2c1;
+    width: 31px;
+}
+
 
 
 
