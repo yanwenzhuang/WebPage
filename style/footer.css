@@ -32,7 +32,6 @@
 .section-wrapper-bt{    
     min-height: 33rem;
     display: block;
-    
 }
 .footer-container{
     max-width: 960px;
@@ -55,13 +54,13 @@
     display: block;
     text-align: left;
     float: left;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 .footer-links{
     width: 834.77px;
     height: 255.13px;
     float: right;
-    margin-top: 25px;
+    margin-top: 30px;
     clear: none;
     padding: 0;
 }
@@ -69,16 +68,19 @@
     display: inline-block;
     width: 24%;
     height: 90%;
+    float: left;
 }
 .footer-section-heading{
-    display: inline;
+    /* display: inline-block; */
     color: #006564;
     font-family: Aktiv Grotesk W01 Light1370681;
     font-size: 14px;
     border-bottom: 1px solid #d7d7d7;
     padding-bottom: 10px;
     padding-right: 130px;
-    font-weight: 100;
+    font-weight: 300;
+    margin: 0 14px 0 0;
+    padding-right: 10px;
 }
 .footer-list{
     list-style: none;
@@ -89,10 +91,6 @@
     font-size: 12px;
     color: #0f748f;
     text-decoration: none;
-}
-.li-font{
-    font-size: 12px;
-    color: #fff;
 }
 .social-icons{
     display: block;
@@ -105,7 +103,6 @@
 .social-icons li{
     float: left;
     margin-right:85px;
-    
 }
 .partner-badges{
     display: block;
@@ -116,6 +113,11 @@
     margin-top: 17px;
     padding-top: 19px;
 }
+.partner-badge{
+    margin-right: 0;
+    height: 1.313em;
+    margin: .625em 1.75em .625em 0;
+}
 .copyright-message{
     display: inline-block;
     width: 834.6px;
@@ -124,4 +126,8 @@
     font-size: 11px;
     color: #767676;
     height: 58px;
+}
+.copyright-message a:link{
+    text-decoration: none;
+    color: #0f748f;
 }

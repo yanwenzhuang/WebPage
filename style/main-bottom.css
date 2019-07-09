@@ -71,7 +71,7 @@
 }
 .detail{
     position: absolute;
-    width: 100%;
+    width: 99.8%;
     height:80px;
     background:  rgba(0,101,101,0.9);
     bottom: 0;
@@ -209,21 +209,21 @@
     width: 33%;
 }
 .picture1{
-    width:304px;
-    height:226px ;
-    background-size: 304px 226px;
+    width: 303.99px;
+    height: 202px;
+    background-size: 303px 202px;
     background-image: url(../images/picture1.jpg)
 }
 .picture2{
-    width:304px;
-    height:226px ;
-    background-size: 304px 226px;
+    width: 303.99px;
+    height: 202px;
+    background-size: 303px 202px;
     background-image: url(../images/picture2.jpg)
 }
 .picture3{
-    width:304px;
-    height:226px ;
-    background-size: 304px 226px;
+    width: 303.99px;
+    height: 202px;
+    background-size: 303px 202px;
     background-image: url(../images/picture3.jpg)
 }
 .content{
@@ -255,7 +255,7 @@
     margin-top: 42px;
     margin-right: 20px;
     font-size: 16px;
-    padding-left: 128px;
+    padding-left: 164px;
 }
 .opt-travel-extra{
     width: 960px;
@@ -301,11 +301,11 @@
     margin: 0 auto 1rem;
     width: 100%;
     text-align: center;
-    line-height: 1.14;
-    font-size: 24px;
+    line-height: 31.92px;
+    font-size: 28px;
     font-weight: 300;
     font-family: 'Aktiv Grotesk W01 Light1370681',sans-serif;
-    color: #4c4c4c;
+    color: #006564;
 }
 .sub-header{
     margin: 0 auto;

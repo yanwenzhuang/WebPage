@@ -21,8 +21,8 @@
     cursor: pointer;
 } */
 .headline{
-    font-family: 'Aktiv Grotesk W01 SC Light',sans-serif;
-    font-size: 23px;
+    font-family: 'Aktiv Grotesk W01 SC Bold',sans-serif;
+    font-size: 25px;
     line-height: 1.32;
     margin: 0 0 .4375em;
     color: #fff;
@@ -35,26 +35,31 @@
     font-family: 'Aktiv Grotesk W01 SC Light';
     font-size: 20px;
     line-height: 1.32;
-    margin: 0 0 .4375em;
+    margin: 0 0 0;
     color: #fff;
 }
 .btn-call-to-action{
     font-family: 'Aktiv Grotesk W01 SC Light',sans-serif;
-    margin-top: 1.5em;
+    margin-top: 10px;
     display: inline-block;
     color: #0f748f;
     background: #fff;
     height: auto;
-    padding: .4em 1.25em;
+    padding: 3px 15px;
     font-weight: 900;
     cursor: pointer;
+    font-size: 12px;
 }
 .section-content{
     width:370px;
     padding: 1.5em;
     position: absolute;
     margin-top: 70px;
+    cursor: pointer;
     background: rgba(0,101,100,0.91) 100%;
+}
+.message-wrapper a:hover{
+    text-decoration: none;
 }
 .maintop-detail{
     font-weight: 100;
@@ -65,10 +70,10 @@
     color: #0f748f;
     border-radius: 20px;
     text-align: center;
-    margin-top: 357px;
+    margin-top: 370px;
     bottom: 20rem;
     margin-left: 415px;
-    padding: 3px 5px 0px 17px;
+    padding: 4px 8px 0px 19px;
     font-size: .8em;
     cursor: pointer;
 }
@@ -84,12 +89,18 @@
     vertical-align: middle;
     margin-left: 5px;
     margin-bottom: 5px;
+    position: relative;
+}
+.opt-arrow i{
+    top: 3px;
+    position: absolute;
+    left: 3px;
 }
 .home-tabs{
     width: 100%;
     display: inline-block;
     height: 52px;
-    margin-top: 11px;
+    margin-top: 13px;
 }
 .tabs{
     list-style: none;
@@ -106,7 +117,7 @@
     width: 240px;
     height: 100%;
     display: inline-block;
-    width: 235px;
+    width: 239px;
     height: 100%;
     border-left: 1px solid #ebedec;
 }
@@ -151,6 +162,12 @@
     padding: 1.125rem 0;
     border-bottom: #d7d7d7 solid 1px;
 }
+.trip-radio+label{
+    border: #fff .4em solid;
+}
+/* .trip-radio{
+    border: #fff .4em solid;
+} */
 .label-color{
     color:#4c4c4c;
     margin: 0 10px;
@@ -288,6 +305,7 @@
     background: #fff;
     border: none;
     text-align: left;
+    line-height: 25px;
 }
 .input-number{
     margin: 10px 0 10px 12px;
