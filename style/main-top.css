@@ -159,22 +159,32 @@
     margin: 0 auto;
 }
 .trip-type-selection {
-    padding: 1.125rem 0;
+    padding: 1.625rem 0 1rem;
     border-bottom: #d7d7d7 solid 1px;
 }
-.trip-radio+label{
-    border: #fff .4em solid;
+.trip-radio{
+    clear: none;
+    clip: rect(0 0 0 0);
+    position: absolute;
 }
-/* .trip-radio{
-    border: #fff .4em solid;
-} */
+.trip-radio-label{
+    border: #fff 8.5px solid;
+    margin-right: 8px;
+    box-shadow: 0 0 0 1px #c6c2c1;
+    border-radius: 8px;
+    display: inline-block;
+} 
 .label-color{
     color:#4c4c4c;
     margin: 0 10px;
 }
+.trip-type-selection i{
+    color: rgb(142,133,115);
+}
 .span-color{
     color:#0f748f; 
     font-weight: bold;
+    margin-left: 5px;
 }
 .trip-type-panel{
     display: none;
@@ -330,3 +340,29 @@
 .button-submit span{
     margin-right: 45px;
 }
+
+
+
+
+
+
+
+.one-world{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0;
+    position: relative;
+    height: 4.375rem;
+    width: 3.875rem;
+}
+
+.site-search-trigger{
+    display: table-cell;
+   
+    padding: 6px 20px 0 15px;
+    color: #4c4c4c;
+}
+
+
+
+

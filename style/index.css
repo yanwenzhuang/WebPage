@@ -29,6 +29,7 @@ body {
     margin-top: 4px;
     display: inline-block;
     float: left;
+    margin-left: -15px;
 }
 .right-item-group{
     margin-top: 4px;
@@ -42,6 +43,7 @@ a:hover{text-decoration:underline;}
 .a-item{
     color: #fff;
     text-align: center;
+    padding: 0 15px 0 15px;
 }
 .header-bottom-row{
     width: 100%; 
@@ -60,13 +62,11 @@ a:hover{text-decoration:underline;}
 
 }
 .right-item-bottom-group{
-    /* margin-top: 24px;
-    display: inline-block;
-    float: right; */
     float: right;
     display: table;
     height: 80%;
     padding: 1px 0 0 0;
+    margin-right: -16px;
 }
 ul{
     margin: 0;
@@ -94,9 +94,18 @@ ul{
     padding: 6px 20px 0 15px;
     color: #4c4c4c;
 }
+.one-world{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0;
+    position: relative;
+    top: -8px;
+    left: 16px;
+}
 .level-trigger-title{
     display: table-cell;
     padding-top: 27px;
+    font-family: 'Aktiv Grotesk W01 Regular',sans-serif;
 }
 .navigation-item{
     display: table-cell;
