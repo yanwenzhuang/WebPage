@@ -1,0 +1,400 @@
+/* @font-face {
+  font-family: CathaySans;
+  src: url('./01_CathaySans/CathaySans_Lt.ttf') format('truetype');
+  src: url('./01_CathaySans/CathaySans_Md.ttf');
+  src: url('./01_CathaySans/CathaySans_BdIt.ttf');
+  src: url('./01_CathaySans/CathaySans_It.ttf');
+  src: url('./01_CathaySans/CathaySans_Lt.ttf');
+  src: url('./01_CathaySans/CathaySans_LtIt.ttf');
+  src: url('./01_CathaySans/CathaySans_MdIt.ttf');
+  src: url('./01_CathaySans/CathaySans_Rg.ttf');
+}
+
+@font-face {
+  font-family: CathaySansMd;
+  src: url('./01_CathaySans/CathaySans_Md.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: CathaySans;
+  src: url('./01_CathaySans/CathaySans_Rg.ttf') format('truetype');
+} */
+
+
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 Light1370681';
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.eot');
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.woff2') format('woff2'),  url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.woff') format('woff'),  url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_Lt.svg#Cathay Pacific Light') format('svg');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 Regular';
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.eot');
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.woff') format('woff'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_Rg.svg#Cathay Pacific') format('svg');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 Medium';
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.eot');
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.woff') format('woff'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_Md.svg#Cathay Pacific Medium') format('svg');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 Bold1370651';
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.eot');
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.woff') format('woff'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_Bd.svg#Cathay Pacific Bold') format('svg');
+
+  font-style: normal;
+}
+/* // ************************************* END: EN **********************************
+
+// ************************************* START: KR ********************************** */
+@font-face {
+  font-family: 'Aktiv Grotesk W01 KR Light';
+  src: url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Lt.eot');
+  src: url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Lt.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Lt.woff2') format('woff2'),  url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Lt.woff') format('woff'),  url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Lt.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_Lt.svg#Cathay Pacific Light') format('svg');
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 KR Regular';
+  src: url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Rg.eot');
+  src: url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Rg.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Rg.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Rg.woff') format('woff'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Rg.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_Rg.svg#Cathay Pacific') format('svg');
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 KR Medium';
+  src: url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Md.eot');
+  src: url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Md.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Md.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Md.woff') format('woff'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Md.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_Md.svg#Cathay Pacific Medium') format('svg');
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 KR Bold';
+  src: url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Bd.eot');
+  font-style: normal;
+}
+/* // ************************************* END: KR **********************************
+
+// ************************************* START: TC ********************************** */
+@font-face {
+  font-family: 'Aktiv Grotesk W01 TC Light';
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.eot');
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.woff2') format('woff2'),  url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.woff') format('woff'),  url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_Lt.svg#Cathay Pacific Light') format('svg');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 TC Regular';
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.eot');
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.woff') format('woff'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_Rg.svg#Cathay Pacific') format('svg');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 TC Medium';
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.eot');
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.woff') format('woff'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_Md.svg#Cathay Pacific Medium') format('svg');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 TC Bold';
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.eot');
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.woff') format('woff'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_Bd.svg#Cathay Pacific Bold') format('svg');
+  font-style: normal;
+}
+/* // ************************************* END: TC **********************************
+
+
+// ************************************* START: CN ********************************** */
+@font-face {
+  font-family: 'Aktiv Grotesk W01 SC Light';
+  src: url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Lt.eot');
+  src: url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Lt.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Lt.woff2') format('woff2'),  url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Lt.woff') format('woff'),  url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Lt.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_Lt.svg#Cathay Pacific Light') format('svg');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 SC Regular';
+  src: url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Rg.eot');
+  src: url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Rg.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Rg.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Rg.woff') format('woff'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Rg.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_Rg.svg#Cathay Pacific') format('svg');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 SC Medium';
+  src: url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Md.eot');
+  src: url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Md.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Md.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Md.woff') format('woff'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Md.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_Md.svg#Cathay Pacific Medium') format('svg');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 SC Bold';
+  src: url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Bd.eot');
+  src: url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Bd.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Bd.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Bd.woff') format('woff'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Bd.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_Bd.svg#Cathay Pacific Bold') format('svg');
+  font-style: normal;
+}
+ /* ************************************* END: CN ********************************** */
+
+ /* ************************************* START: JP ********************************** */
+@font-face {
+  font-family: 'Aktiv Grotesk W01 JP Light';
+  src: url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Lt.eot');
+  src: url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Lt.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Lt.woff2') format('woff2'),  url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Lt.woff') format('woff'),  url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Lt.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_Lt.svg#Cathay Pacific Light') format('svg');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 JP Regular';
+  src: url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Rg.eot');
+  src: url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Rg.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Rg.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Rg.woff') format('woff'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Rg.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_Rg.svg#Cathay Pacific') format('svg');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 JP Medium';
+  src: url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Md.eot');
+  src: url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Md.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Md.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Md.woff') format('woff'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Md.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_Md.svg#Cathay Pacific Medium') format('svg');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 JP Bold';
+  src: url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Bd.eot');
+  src: url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Bd.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Bd.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Bd.woff') format('woff'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Bd.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_Bd.svg#Cathay Pacific Bold') format('svg');
+  font-style: normal;
+}
+/* // ************************************* END: JP ********************************** */
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 Light1370681';
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.eot');
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.woff2') format('woff2'),  url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.woff') format('woff'),  url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_Lt.svg#Cathay Pacific Light') format('svg'); // sass-lint:disable-line no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 Regular';
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.eot');
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.woff') format('woff'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_Rg.svg#Cathay Pacific') format('svg'); // sass-lint:disable-line no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 Medium';
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.eot');
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.woff') format('woff'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_Md.svg#Cathay Pacific Medium') format('svg'); // sass-lint:disable-line  no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 Bold1370651';
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.eot');
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.woff') format('woff'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_Bd.svg#Cathay Pacific Bold') format('svg'); // sass-lint:disable-line  no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+// ************************************* END: EN **********************************
+
+// ************************************* START: KR **********************************
+@font-face {
+  font-family: 'Aktiv Grotesk W01 KR Light';
+  src: url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Lt.eot');
+  src: url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Lt.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Lt.woff2') format('woff2'),  url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Lt.woff') format('woff'),  url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Lt.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_Lt.svg#Cathay Pacific Light') format('svg'); // sass-lint:disable-line no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 KR Regular';
+  src: url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Rg.eot');
+  src: url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Rg.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Rg.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Rg.woff') format('woff'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Rg.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_Rg.svg#Cathay Pacific') format('svg'); // sass-lint:disable-line no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 KR Medium';
+  src: url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Md.eot');
+  src: url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Md.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Md.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Md.woff') format('woff'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Md.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_Md.svg#Cathay Pacific Medium') format('svg'); // sass-lint:disable-line  no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 KR Bold';
+  src: url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Bd.eot');
+  src: url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Bd.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Bd.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Bd.woff') format('woff'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_KR_W_Bd.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/kr/CathayPacific/CathaySans_Bd.svg#Cathay Pacific Bold') format('svg'); // sass-lint:disable-line  no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+// ************************************* END: KR **********************************
+
+// ************************************* START: TC **********************************
+@font-face {
+  font-family: 'Aktiv Grotesk W01 TC Light';
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.eot');
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.woff2') format('woff2'),  url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.woff') format('woff'),  url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Lt.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_Lt.svg#Cathay Pacific Light') format('svg'); // sass-lint:disable-line no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 TC Regular';
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.eot');
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.woff') format('woff'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Rg.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_Rg.svg#Cathay Pacific') format('svg'); // sass-lint:disable-line no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 TC Medium';
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.eot');
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.woff') format('woff'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Md.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_Md.svg#Cathay Pacific Medium') format('svg'); // sass-lint:disable-line  no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 TC Bold';
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.eot');
+  src: url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.woff') format('woff'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_WCorp_Bd.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/en/CathayPacific/CathaySans_Bd.svg#Cathay Pacific Bold') format('svg'); // sass-lint:disable-line  no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+// ************************************* END: TC **********************************
+
+
+// ************************************* START: CN **********************************
+@font-face {
+  font-family: 'Aktiv Grotesk W01 SC Light';
+  src: url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Lt.eot');
+  src: url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Lt.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Lt.woff2') format('woff2'),  url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Lt.woff') format('woff'),  url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Lt.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_Lt.svg#Cathay Pacific Light') format('svg'); // sass-lint:disable-line no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 SC Regular';
+  src: url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Rg.eot');
+  src: url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Rg.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Rg.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Rg.woff') format('woff'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Rg.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_Rg.svg#Cathay Pacific') format('svg'); // sass-lint:disable-line no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 SC Medium';
+  src: url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Md.eot');
+  src: url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Md.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Md.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Md.woff') format('woff'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Md.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_Md.svg#Cathay Pacific Medium') format('svg'); // sass-lint:disable-line  no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 SC Bold';
+  src: url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Bd.eot');
+  src: url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Bd.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Bd.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Bd.woff') format('woff'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_W_SC_Bd.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/sc/CathayPacific/CathaySans_Bd.svg#Cathay Pacific Bold') format('svg'); // sass-lint:disable-line  no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+// ************************************* END: CN **********************************
+
+// ************************************* START: JP **********************************
+@font-face {
+  font-family: 'Aktiv Grotesk W01 JP Light';
+  src: url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Lt.eot');
+  src: url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Lt.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Lt.woff2') format('woff2'),  url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Lt.woff') format('woff'),  url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Lt.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_Lt.svg#Cathay Pacific Light') format('svg'); // sass-lint:disable-line no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 JP Regular';
+  src: url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Rg.eot');
+  src: url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Rg.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Rg.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Rg.woff') format('woff'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Rg.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_Rg.svg#Cathay Pacific') format('svg'); // sass-lint:disable-line no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 JP Medium';
+  src: url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Md.eot');
+  src: url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Md.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Md.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Md.woff') format('woff'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Md.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_Md.svg#Cathay Pacific Medium') format('svg'); // sass-lint:disable-line  no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Aktiv Grotesk W01 JP Bold';
+  src: url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Bd.eot');
+  src: url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Bd.eot?#iefix') format('embedded-opentype'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Bd.woff2') format('woff2'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Bd.woff') format('woff'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_JP_W_Bd.ttf')  format('truetype'), url('//assets.cathaypacific.com/fonts/jp/CathayPacific/CathaySans_Bd.svg#Cathay Pacific Bold') format('svg'); // sass-lint:disable-line  no-duplicate-properties
+  // font-weight: 300;
+  font-style: normal;
+}
+// ************************************* END: JP **********************************
+
+@font-face {
+  font-family: 'cx-icons';
+  src: url('./fonts/cx-icons.eot');
+  src: url('./fonts/cx-icons.eot?#iefix-wepioz') format('embedded-opentype'), url('./fonts/cx-icons.svg') format('svg'), url('./fonts/cx-icons.woff') format('woff'), url('./fonts/cx-icons.ttf') format('truetype'); // sass-lint:disable-line no-duplicate-properties
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ibe-icons';
+  src: url('./fonts/ibe-icons.eot');
+  src: url('./fonts/ibe-icons.eot?#iefix-wepioz') format('embedded-opentype'), url('./fonts/ibe-icons.svg') format('svg'), url('./fonts/ibe-icons.woff') format('woff'), url('./fonts/ibe-icons.ttf') format('truetype'); // sass-lint:disable-line  no-duplicate-properties
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icon-sme';
+  src: url('./fonts/icon-sme.eot');
+  src: url('./fonts/icon-sme.eot?#iefix-wepioz') format('embedded-opentype'), url('./fonts/icon-sme.svg') format('svg'), url('./fonts/icon-sme.woff') format('woff'), url('./fonts/icon-sme.ttf') format('truetype'); // sass-lint:disable-line  no-duplicate-properties
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'cx-icons';
+  src: url('./fonts/cx-icons.eot');
+  src: url('./fonts/cx-icons.eot?#iefix-wepioz') format('embedded-opentype'), url('./fonts/cx-icons.svg') format('svg'), url('./fonts/cx-icons.woff') format('woff'), url('./fonts/cx-icons.ttf') format('truetype'); // sass-lint:disable-line no-duplicate-properties
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ibe-icons';
+  src: url('./fonts/ibe-icons.eot');
+  src: url('./fonts/ibe-icons.eot?#iefix-wepioz') format('embedded-opentype'), url('./fonts/ibe-icons.svg') format('svg'), url('./fonts/ibe-icons.woff') format('woff'), url('./fonts/ibe-icons.ttf') format('truetype'); // sass-lint:disable-line  no-duplicate-properties
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'icon-sme';
+  src: url('./fonts/icon-sme.eot');
+  src: url('./fonts/icon-sme.eot?#iefix-wepioz') format('embedded-opentype'), url('./fonts/icon-sme.svg') format('svg'), url('./fonts/icon-sme.woff') format('woff'), url('./fonts/icon-sme.ttf') format('truetype'); // sass-lint:disable-line  no-duplicate-properties
+
+  font-weight: normal;
+  font-style: normal;
+}

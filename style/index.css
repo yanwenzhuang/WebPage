@@ -1,6 +1,7 @@
 body:lang(zh-CN) {
   font-family: "Aktiv Grotesk W01 SC Regular", sans-serif;
 }
+
 body {
     margin: 0;
     color: #4c4c4c;
@@ -21,7 +22,8 @@ body {
     width: 960px;
     height: 100%;
     font-size: 12px;
-    font-family: Microsoft YaHei;
+    /* font-family: Microsoft YaHei; */
+    font-family: 'Aktiv Grotesk W01 SC Regular',sans-serif;
     margin-left: auto;
     margin-right: auto;
 }

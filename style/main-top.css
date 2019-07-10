@@ -279,6 +279,7 @@
     height: 55px;
     background: #fff;
     margin-top: 78px;
+    position: relative;
 }
 .flight-cell{
     display: table-cell;
@@ -317,6 +318,19 @@
     text-align: left;
     line-height: 25px;
 }
+.depart-date:focus{
+    color:#0f748f;
+}
+.calendar_1{
+    width: 655px;
+    height: 320px;
+    background: pink;
+    position: absolute;
+    z-index: 2;
+    top: 55px;
+    left: 0;
+    display: none;
+}
 .input-number{
     margin: 10px 0 10px 12px;
     font-size: .875rem;
@@ -340,13 +354,6 @@
 .button-submit span{
     margin-right: 45px;
 }
-
-
-
-
-
-
-
 .one-world{
     display: table-cell;
     vertical-align: middle;

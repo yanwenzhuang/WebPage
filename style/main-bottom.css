@@ -66,8 +66,8 @@
 }
 .secondary-promotion{
     float: left;
-    width: 32.8%;
-    margin-left: 7px;
+    width: 32%;
+    margin-left: 19px;
 }
 .detail{
     position: absolute;
@@ -78,6 +78,9 @@
     color: #fff;
     font-size: 20px;
     font-family: 'Aktiv Grotesk W01 SC Medium',sans-serif;
+}
+a:hover .detail{
+    background:#006565;
 }
 .description-watch{
     width: 95%;
@@ -95,6 +98,9 @@
     text-align: right;
     font-family: 'Aktiv Grotesk W01 SC Regular',sans-serif;
 }
+a:hover .item-right{
+    text-decoration: underline;
+}
 .miscellenous{
     margin-top: 2px;
     font-size: 15px;
@@ -107,14 +113,17 @@
 .information{
     border-top: 1px solid #c6c2c1;
     overflow: hidden;
+    padding-top: 12px;
+    padding-bottom: 25px;
 }
-.information .link{
-    display: block;
-    padding: 10px 5px;
+
+a:hover .information{
+    background:#ebedec;
 }
+
+
 .secondary-promotion .secndary-detail{
     float: left;
-    padding-bottom: .625em;
     width: 290px;
     margin-left: 6px;
 }
@@ -139,6 +148,7 @@
     padding-top: 10px;
     color: #0f748f;
 }
+
 .price{
     display: inline-block;
     font-size: .75em;
@@ -149,6 +159,15 @@
     font-size: 1.675em;
     line-height: 1.25;
 }
+a:hover .category{
+    text-decoration: underline;
+}
+a:hover .price{
+    text-decoration: underline;
+}
+/* a:hover .price b{
+    text-decoration: none;
+} */
 .term-of-services{
     margin: 0 auto 1.125em;
     width: 100%;
@@ -160,12 +179,12 @@
     font-size: 12px;
     margin-bottom: 0;
     color: #4c4c4c;
-    line-height: 1em;
+    line-height: 50px;
     font-family: 'Aktiv Grotesk W01 Regular',sans-serif;
 }
 .actions{
     display: table;
-    margin: 0 auto;
+    margin: 37px auto 0;
     border-spacing: 4em 0;
     width: 100%;
     text-align: center;
@@ -210,6 +229,20 @@
 .card{
     width: 33%;
 }
+.card a:hover{
+    text-decoration: none;
+}
+.card a:hover span{
+    text-decoration: underline;
+}
+a:hover .content{
+    background:#ebedec;
+}
+a:hover .picture1{
+    /* background-size: 310px 206px;
+    position: static; */
+}
+
 .picture1{
     width: 303.99px;
     height: 202px;
@@ -256,8 +289,11 @@
     color: #0f748f;
     margin-top: 42px;
     margin-right: 20px;
-    font-size: 16px;
-    padding-left: 164px;
+    font-size: 14px;
+    padding-left: 160px;
+}
+.call-to-action i{
+    margin-left: 10px;
 }
 .opt-travel-extra{
     width: 960px;
