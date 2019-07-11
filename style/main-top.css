@@ -70,7 +70,7 @@
     color: #0f748f;
     border-radius: 20px;
     text-align: center;
-    margin-top: 370px;
+    margin-top: 392px;
     bottom: 20rem;
     margin-left: 415px;
     padding: 4px 8px 0px 19px;
@@ -84,12 +84,13 @@
     display: inline-block;
     border: 1px solid #0f748f;
     border-radius: 12px;
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 20px;
+    height: 4px;
     vertical-align: middle;
     margin-left: 5px;
     margin-bottom: 5px;
     position: relative;
+    padding-top: 17px;
 }
 .opt-arrow i{
     top: 3px;
@@ -100,7 +101,7 @@
     width: 100%;
     display: inline-block;
     height: 52px;
-    margin-top: 13px;
+    margin-top: 14px;
 }
 .tabs{
     list-style: none;
@@ -233,19 +234,16 @@
     float: left;
     width: 960px;
     height: 55px;
-    background: pink;
 }
 .flight-depart{
     display: table-cell;
     width: 50%;
     height: 100%;
-    background: #fff;
 }
 .flight-arrive{
     display: table-cell;
     width: 50%;
     height: 100%;
-    background: #fff;
     border-left: #ebedec solid 2px;
 }
 .field-group{
@@ -273,12 +271,59 @@
     border: none;
     font-weight: 600;
 }
+
+.field-group-departure{
+    margin:0 auto;
+    position: relative;
+    height: 57.5px;
+    width: 478px;   
+}
+.field-label{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.field-input-departure{
+    padding-left: .857em;
+    max-height: 3.58em;
+    font-size: 14px;
+    color: #4c4c4c;
+    text-align: left;
+    line-height: 28px;
+    border: 1px solid #fff;
+    background: #fff;
+    border-bottom: 1px solid #c6c2c1;
+    border-radius: 0;
+    display: block;
+    margin: 0;
+    padding: 1em 1em 0.5em 2em;
+    width: 90.7%;
+}
+.label-input{
+    cursor: inherit;
+    position: absolute;
+    top: 5px;
+    left: 33px;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #767676;
+    clip:inherit;
+    height: auto;
+    overflow: hidden;
+    width: auto;
+}
+
 .flight-tooltip{
     display: table;
     width: 960px;
     height: 55px;
     background: #fff;
-    margin-top: 78px;
+    margin-top: 74px;
     position: relative;
 }
 .flight-cell{
@@ -286,6 +331,7 @@
     width: 190px;
     height: 100%;
     background: #fff;
+    border-bottom: 1px solid #c6c2c1;
 }
 .flight-cell-border{
     display: table-cell;
@@ -293,6 +339,7 @@
     height: 100%;
     background: #fff;
     border-left: #ebedec solid 2px;
+    border-bottom: 1px solid #c6c2c1;
 }
 .depart-data{
     font-size: 11px;
@@ -357,16 +404,14 @@
 .one-world{
     display: table-cell;
     vertical-align: middle;
-    padding: 0;
+    padding: 23px 0 0 0;
     position: relative;
-    height: 4.375rem;
     width: 3.875rem;
 }
 
 .site-search-trigger{
     display: table-cell;
-   
-    padding: 6px 20px 0 15px;
+    padding: 0px 20px 0 15px;
     color: #4c4c4c;
 }
 

@@ -45,26 +45,60 @@
                   <li class="navigation-item"> 
                       <a class="first-level-trigger">
                         <span class="level-trigger-title">优惠</span>
+                        <div class="navigation-item-panel">
+                            <div class="navigation-hr">
+                                <hr style="width: 960px;margin:0 auto;">
+                            </div>
+                            <div class="panel-content-wrapper-one">
+
+                            </div>
+                        </div>
+                      </a>
+                      
+                  </li>
+                  <li class="navigation-item">
+                      <a class="first-level-trigger">
+                          <span class="level-trigger-title">管理</span>
+                          <div class="navigation-item-panel">
+                            <div class="navigation-hr">
+                                <hr style="width: 960px;margin:0 auto;">
+                            </div>
+                            <div class="panel-content-wrapper-two">
+
+                            </div>
+                        </div>
                       </a>
                   </li>
                   <li class="navigation-item">
                       <a class="first-level-trigger">
-                          <span>管理</span>
-                      </a>
-                  </li>
-                  <li class="navigation-item">
-                      <a class="first-level-trigger">
-                          <span>体验</span>
+                          <span class="level-trigger-title">体验</span>
+                          <div class="navigation-item-panel">
+                            <div class="navigation-hr">
+                                <hr style="width: 960px;margin:0 auto;">
+                            </div>
+                            <div class="panel-content-wrapper-three">
+
+                            </div>
+                            
+                        </div>
                       </a>
                   </li>
                   <li class="navigation-item">
                     <a class="first-level-trigger">
-                        <span>马可孛罗会</span>
+                        <span class="level-trigger-title">马可孛罗会</span>
+                        <div class="navigation-item-panel">
+                            <div class="navigation-hr">
+                                <hr style="width: 960px;margin:0 auto;">
+                            </div>
+                            <div class="panel-content-wrapper-four">
+
+                            </div>
+                        </div>
                     </a>
                   </li>
                   <li class="navigation-item">
                     <a class="first-level-trigger">
-                        <span>国泰港龙航空</span>
+                        <span class="level-trigger-title">国泰港龙航空</span>
                     </a>
                   </li>
                 </ul>
@@ -177,18 +211,20 @@
      
                              <div class="flight-booking">
                                  <div class="flight-depart">
-                                     <div class="field-group">
-                                         <label for="depart-label" class="lable-filled">出发地</label><br>
-                                         <input type="text" id="depart-label" name="depart-label" 
-                                          class="input-filled" placeholder="北京，(PEK)">
-                                     </div>
+                                     <div class="field-group-departure">
+                                        <label for="depart-label" class="field-label label-input">出发地</label>
+                                        <input type="text" id="depart-label" name="destination-label" placeholder="北京，(PEK)"
+                                         class="field-input-departure" autocomplete="off" onfocus="this.value='北京，(PEK)'" onblur="this.placeholder='北京，(PEK)'"
+                                        >
+                                    </div>    
                                  </div>
                                  <div class="flight-arrive">
-                                         <div class="field-group">
-                                                 <label for="depart-label" class="lable-filled">目的地</label><br>
-                                                 <input type="text" id="depart-label" name="depart-label" 
-                                                  class="input-filled" placeholder="目的地">
-                                             </div>
+                                    <div class="field-group-departure">
+                                        <label for="destination-label" class="field-label label-input">目的地</label>
+                                        <input type="text" id="destination-label" name="destination-label" placeholder="目的地"
+                                         class="field-input-departure" autocomplete="off" onfocus="this.placeholder=''" onblur="this.placeholder='目的地'"
+                                        >
+                                    </div>    
                                  </div>
                              </div>
                              <div class="flight-tooltip">

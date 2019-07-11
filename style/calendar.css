@@ -1,12 +1,11 @@
 .body{
     margin: 0;
 }
-.field-group{
+.field-group-departure{
     margin:0 auto;
     position: relative;
     height: 57.5px;
-    width: 478px;
-    background:pink;
+    width: 478px;   
 }
 .field-label{
     border: 0;
@@ -18,21 +17,37 @@
     position: absolute;
     width: 1px;
 }
-.field-input{
+.field-input-departure{
     padding-left: .857em;
-    height: 3.58em;
     max-height: 3.58em;
-    font-size: .875rem;
+    font-size: 14px;
     color: #4c4c4c;
     text-align: left;
-
-    line-height: 1.3;
+    line-height: 28px;
     border: 1px solid #fff;
     background: #fff;
     border-bottom: 1px solid #c6c2c1;
     border-radius: 0;
     display: block;
     margin: 0;
-    padding: 1em 1em 1em 2em;
+    padding: 1em 1em 0.5em 2em;
     width: 100%;
+}
+.label-input{
+    cursor: inherit;
+    position: absolute;
+    top: 5px;
+    left: 33px;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #767676;
+    clip:inherit;
+    height: auto;
+    overflow: hidden;
+    width: auto;
+}
+
+ 
+.field-input-departure:focus label-input:active{
+    display: inline-block;
 }
