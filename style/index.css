@@ -103,38 +103,15 @@ ul{
     width: 960px;
     height: 100%;
     margin: 0 auto;
-    background: #006564;
+    /* background: #006564; */
+    position: relative;
+    
+}   
+.navigation-header{
+    margin: 0 0 15px;
+    font-size: 14px;
+    color: #000;
 }
-.panel-content-wrapper-two{
-    width: 960px;
-    height: 100%;
-    margin: 0 auto;
-    background: pink;
-}
-.panel-content-wrapper-three{
-    width: 960px;
-    height: 100%;
-    margin: 0 auto;
-    background: #4C4C4C;
-}
-.panel-content-wrapper-four{
-    width: 960px;
-    height: 100%;
-    margin: 0 auto;
-    background: rebeccapurple;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 .site-search-bar-left-separator-container{
     display: table-cell;
     vertical-align: middle;
@@ -201,29 +178,70 @@ ul{
     margin-right:auto;
 }
 
-.panel-content-wrapper{
-    overflow: auto;
-    margin: auto;
-}
-.mega-menu{
-    padding-left: 0;
-    padding-right: 0;
-    max-height: 1000px;
-    max-width: 960px;
-    margin: auto;
-}
+
+
+
+
+
+
 .mega-menu-component{
-    box-shadow: none;
-    background: 0;
-    display: flex;
-    padding: 20px 0;
-    margin-bottom: 2px;
-    width: 100%;
+    width: 960px;
+    height: 187px;
+    margin: 0 auto;
+    
 }
 .mega-column{
-    flex: 1 1;
-    margin-right: 30px;
+    display: inline-block;
+    float: left;
+    width: 23%;
+    height: 169px;
+    border-right: 1px solid #ebedec;
+    margin-right: 10px;
+    margin-top: 19px;
 }
-.header-navigation-admin {
-    height: 100%;
+.mega-column ul{
+    list-style: none;
+    margin: 0; 
+    padding:0; 
 }
+.mega-column ul li{
+    line-height: 22px;
+    font-size: 12px;
+    color: #0f748f;
+}
+.mega-column a:hover{
+    text-decoration: underline;
+}
+
+.navigation-header{
+    margin: 0 0 15px;
+    font-size: 14px;
+}
+
+.mega-column-second{
+    display: inline-block;
+    float: left;
+    width: 18.5%;
+    height: 169px;
+    border-right: 1px solid #ebedec;
+    margin-right: 10px;
+    margin-top: 19px;
+}
+
+.mega-column-second ul{
+    list-style: none;
+    margin: 0; 
+    padding:0; 
+}
+.mega-column-second ul li{
+    line-height: 22px;
+    font-size: 12px;
+    color: #0f748f;
+}
+.mega-column-second a:hover{
+    text-decoration: underline;
+}
+
+
+
+
