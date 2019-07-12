@@ -1,0 +1,125 @@
+body{
+    margin-top: 100px;  
+    margin-left: 300px;
+    padding: 0;
+    font-size: 14px;
+}
+
+
+
+
+
+.book-trip-return-standalone .field-group{
+    margin: 0;
+}
+.book-trip-return-standalone{
+    background: #ebedec;
+    padding: 0;
+    width: auto;
+    float: left;
+}
+.ui-radio{
+    clip: rect(0 0 0 0);
+    position: absolute;
+}
+.book-trip-return-standalone .radio-label {
+    display: inline-block;
+    margin: 0 2em 1.15em 0;
+    padding: 0;
+    cursor: pointer;
+}
+.ui-radio+label {
+    color: #0f748f;
+}
+.book-trip-return-standalone .ui-radio:checked+label {
+    border-bottom: 2px solid;
+}
+.ui-radio:checked+label {
+    outline: 1px solid transparent;
+    color: #4c4c4c;
+}
+.book-trip-return-standalone .ui-radio:checked+label:hover {
+    text-decoration: none;
+}
+.book-trip-return-standalone .ui-radio:focus+label {
+    outline: 2px solid #0f748f;
+    outline-offset: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.book-trip-extras-medium-up{
+    width: auto;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.15rem;
+    display: block;
+    bottom: .5em;
+}
+.book-trip-extras-medium-up li.trip-redeem {
+    padding: 0 1.25rem;
+    border-left: 1px solid #d7d7d7;
+}
+.book-trip-extras-medium-up li {
+    display: inline-block;
+    padding: 0 1.125rem 0 0;
+}
+.book-trip-extras-medium-up li {
+    padding: 0;
+    display: inline-block;
+}
+.book-trip-extras-medium-up a:link{
+    color: #0f748f;
+    text-decoration: none;
+}
+.book-trip-extras-medium-up a:hover{
+    color: #0f748f;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.book-trip-airports{
+    float: left;
+    width: 960px;
+}
+.book-trip-airports .flight-depart{
+    float: left;
+    width: 50%;
+    padding-right: 2px;
+}
+.book-trip-airports .flight-destination{
+    float: left;
+    width: 50%;
+    padding-right: 2px;
+}
+.book-trip-airports .field-group {
+    margin: 0;
+    height: 57.2px;
+    position: relative;
+}
+.field-group .field-input.input-filled{
+    padding-top: 1.6em;
+    padding-bottom: .5em;
+}
+.book-trip-airports .field-input {
+    padding-left: .857em;
+    height: 3.58em;
+    max-height: 3.58em;
+    font-size: .875rem;
+    color: #4c4c4c;
+    text-align: left;
+}

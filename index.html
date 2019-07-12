@@ -383,18 +383,16 @@
                  <div id="book-trip-flight" class="trip-type-panel parbase panel-active panel-open">
                      <div class="flight-booking-panel">
                          <form action="#" method="POST" >
-                             <div class="book-trip-return-standalone">
-                                 <input type="radio" id="round-trip" name="round-trip"
-                                  class="ui-radio" value="R" checked="checked">
-                                 <label class="radio-label">往返</label>
-                                 <input type="radio" id="one-way" name="round-trip"
-                                  class="ui-radio" value="O">
-                                 <label class="radio-label">单程</label>
-                             </div>
+                            <div class="field-group book-trip-return-standalone">
+                                <input type="radio" class="ui-radio" id="round-trip" name="round-trip" value="R" checked="checked">
+                                <label for="round-trip" class="radio-label">往返</label>
+                                <input type="radio" class="ui-radio" id="one-way" name="round-trip" value="0">
+                                    <label for="one-way" class="radio-label">单程</label>
+                            </div>
                              <ul class="book-trip-extras-medium-up">
-                                 <li class="trip-redeem"><a href="#"><span>兑换航班机票</span></a></li>
-                                 <li><a href="#"><span>多座城市/过境</span></a></li>
-                             </ul>
+                                    <li class="trip-redeem"><a href="#">兑换航班机票</a></li>
+                                    <li class="trip-multicity"><a href="#">多座城市/过境</a></li>
+                            </ul>  
      
                              <div class="flight-booking">
                                  <div class="flight-depart">
@@ -677,7 +675,6 @@
                                                       </div>
                                                   </div>
                                           </div>
-                                      
                              </div>
                             </a>
                   </li>    
@@ -702,7 +699,9 @@
                     
                     <li class="card">
                        <a>
-                        <div class="picture1"></div>
+                        <div class="img-box">
+                            <img src="images/picture1.jpg" class="img">
+                        </div>
                         
                         <div class="content">
                             <div class="picture-promotion">
@@ -719,8 +718,9 @@
                     
                     <li class="card">
                         <a>
-                            <div class="picture2"></div>
-                            <!-- <img src="images/picture1.jpg" width="304px" height="227px"> -->
+                            <div class="img-box">
+                                <img src="images/picture2.jpg" class="img">
+                            </div>
                             <div class="content">
                                 <div class="picture-promotion">
                                     <h3 class="picture-title">专享RISE会议优惠并赚取额外[亚洲万里通]里数。</h3>
@@ -736,8 +736,9 @@
                    
                     <li class="card">
                         <a>
-                            <div class="picture3"></div>
-                            <!-- <img src="images/picture1.jpg" width="304px" height="227px"> -->
+                            <div class="img-box">
+                                <img src="images/picture3.jpg" class="img">
+                            </div>
                             <div class="content">
                                 <div class="picture-promotion">
                                     <h3 class="picture-title">志在飞跃</h3>

@@ -238,28 +238,17 @@ a:hover .price{
 a:hover .content{
     background:#ebedec;
 }
-a:hover .picture1{
-    /* background-size: 310px 206px;
-    position: static; */
-}
-
-.picture1{
+.img-box{
     width: 303.99px;
-    height: 202px;
-    background-size: 303px 202px;
-    background-image: url(../images/picture1.jpg)
+    height: 202px; 
+    overflow: hidden;
 }
-.picture2{
-    width: 303.99px;
-    height: 202px;
-    background-size: 303px 202px;
-    background-image: url(../images/picture2.jpg)
+.img{
+    width: 100%;
+    height: 100%;
 }
-.picture3{
-    width: 303.99px;
-    height: 202px;
-    background-size: 303px 202px;
-    background-image: url(../images/picture3.jpg)
+a:hover .img-box img:hover{
+    transform: scale(1.1);
 }
 .content{
     width: 302px;

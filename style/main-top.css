@@ -211,13 +211,87 @@
     cursor: pointer;
     font-weight: bold;
 }
+
+
+
+.book-trip-return-standalone .field-group{
+    margin: 0;
+}
+.book-trip-return-standalone{
+    background: #ebedec;
+    padding: 0;
+    width: auto;
+    float: left;
+}
+.ui-radio{
+    clip: rect(0 0 0 0);
+    position: absolute;
+}
+.book-trip-return-standalone .radio-label {
+    display: inline-block;
+    margin: 0 2em 1.15em 0;
+    padding: 0;
+    cursor: pointer;
+}
+.ui-radio+label {
+    color: #0f748f;
+}
+.book-trip-return-standalone .ui-radio:checked+label {
+    border-bottom: 2px solid;
+}
+.ui-radio:checked+label {
+    outline: 1px solid transparent;
+    color: #4c4c4c;
+}
+.book-trip-return-standalone .ui-radio:checked+label:hover {
+    text-decoration: none;
+}
+.book-trip-return-standalone .ui-radio:focus+label {
+    outline: 2px solid #0f748f;
+    outline-offset: 2px;
+}
+
+
+.book-trip-extras-medium-up{
+    width: auto;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.15rem;
+    display: block;
+    bottom: .5em;
+}
+.book-trip-extras-medium-up li.trip-redeem {
+    padding: 0 1.25rem;
+    border-left: 1px solid #d7d7d7;
+}
+.book-trip-extras-medium-up li {
+    display: inline-block;
+    padding: 0 1.125rem 0 0;
+}
+.book-trip-extras-medium-up li {
+    padding: 0;
+    display: inline-block;
+}
+.book-trip-extras-medium-up a:link{
+    color: #0f748f;
+    text-decoration: none;
+}
+.book-trip-extras-medium-up a:hover{
+    color: #0f748f;
+    text-decoration: underline;
+} 
 .book-trip-extras-medium-up{
     list-style: none;
     color: #0f748f;
     display: inline-flex;
     font-weight: bold;
     cursor: pointer;
+    margin-left: 117px;
 }
+
+
+
+
 .book-trip-extras-medium-up a:link{
     text-decoration: none;
 }
@@ -249,6 +323,14 @@
 .field-group{
     position: absolute;
     color: #0f748f;
+    font-size: 14px;
+}
+.book-trip-extras-medium-up a{
+    font-size: 14px;
+    color: #0f748f;
+}
+.book-trip-extras-medium-up a:hover{
+    text-decoration: underline;
 }
 .lable-filled{
     cursor: inherit;
@@ -414,6 +496,7 @@
     padding: 0px 20px 0 15px;
     color: #4c4c4c;
 }
+
 
 
 
