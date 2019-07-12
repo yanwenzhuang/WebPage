@@ -6,45 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="style/text.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="icomoon/style.css">
 </head>
 <body>
-    <form>
-        <div class="field-group book-trip-return-standalone">
-            <input type="radio" class="ui-radio" id="round-trip" name="round-trip" value="R" checked="checked">
-            <label for="round-trip" class="radio-label">往返</label>
-            <input type="radio" class="ui-radio" id="one-way" name="round-trip" value="0">
-            <label for="one-way" class="radio-label">单程</label>
-        </div>
-        <!-- <ul class="book-trip-extras-medium-up">
-            <li class="trip-redeem"><a href="#">兑换航班机票</a></li>
-            <li class="trip-multicity"><a href="#">多座城市/过境</a></li>
-        </ul>   
-        <div class="book-trip-airports">
-            <div class="flight-depart">
-                <div class="field-group">
-                    <label for="depart-label" class="field-label input-filled">出发地</label>
-                    <input type="text" id="depart-label" name="depart-label" placeholder="出发地"
-                     class="field-input ui-autocomplete-input input-filled"  
-                    >
-                </div>    
-            </div>
-            <div class="flight-destination"> 
-                <div class="field-group">
-                    <label for="destination-label" class="field-label">目的地</label>
-                    <input type="text" id="destination-label" name="destination-label" placeholder="目的地"
-                        class="field-input ui-autocomplete-input"  
-                    >
-                </div>    
-            </div>
-        </div> -->
-        <!-- <div>
-            <div> </div>
-            <div>  </div>
-        </div>
-        <div> </div>
-        <div> </div>
-        <button>搜索航班</button> -->
-    </form>
-    
+    <div class="trip-type-selection">
+        <input type="radio" class="ui-radio" id="flights" name="trip-type" value="0" checked="checked"/>
+        <label for="flights" class="field-label select-flights">
+            <i class="icon-airplane" aria-hidden="true"></i>
+            <span class="title">航班</span>
+        </label>
+        <input type="radio" class="ui-radio" id="hotels" name="trip-type" value="1"/>
+        <label for="hotels" class="field-label select-hotels">
+            <i class="icon-location-hotel" aria-hidden="true"></i>
+            <span class="title">酒店</span>
+        </label>
+        <input type="radio" class="ui-radio" id="package" name="trip-type" value="2"/>
+        <label for="package" class="field-label select-package">
+            <i class="icon-airplane" aria-hidden="true"></i>
+            <i class="icon-location-hotel" aria-hidden="true"></i>
+            <span class="title">航班+酒店</span>
+        </label>
+    </div>
 </body>
 </html>

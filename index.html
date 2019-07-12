@@ -359,7 +359,7 @@
      
             <div class="book-trip-tab-panel">
                <div class="book-trip">
-                    <div class="trip-type-selection">
+                    <!-- <div class="trip-type-selection">
                         <input type="radio" class="trip-radio" name="trip-type" id="flights" value="0" checked="checked">
                         <label for="flights" class="label-color">
                             <i class="trip-radio-label"></i>
@@ -379,7 +379,28 @@
                             <i class="icon-location-hotel"></i>
                             <span class="span-color">航班+酒店</span>
                         </label>
-                    </div>
+                    </div> -->
+
+                    <div class="trip-type-selection">
+                            <input type="radio" class="ui-radio" id="flights" name="trip-type" value="0" checked="checked"/>
+                            <label for="flights" class="field-label select-flights">
+                                <i class="icon-airplane" aria-hidden="true"></i>
+                                <span class="title" style="font-weight: 700;">航班</span>
+                            </label>
+                            <input type="radio" class="ui-radio" id="hotels" name="trip-type" value="1"/>
+                            <label for="hotels" class="field-label select-hotels">
+                                <i class="icon-location-hotel" aria-hidden="true"></i>
+                                <span class="title" style="font-weight: 700;">酒店</span>
+                            </label>
+                            <input type="radio" class="ui-radio" id="package" name="trip-type" value="2"/>
+                            <label for="package" class="field-label select-package">
+                                <i class="icon-airplane" aria-hidden="true"></i>
+                                <i class="icon-location-hotel" aria-hidden="true"></i>
+                                <span class="title" style="font-weight: 700;">航班+酒店</span>
+                            </label>
+                        </div>
+
+
                  <div id="book-trip-flight" class="trip-type-panel parbase panel-active panel-open">
                      <div class="flight-booking-panel">
                          <form action="#" method="POST" >

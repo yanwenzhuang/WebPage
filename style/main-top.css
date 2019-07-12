@@ -162,6 +162,13 @@
 .trip-type-selection {
     padding: 1.625rem 0 1rem;
     border-bottom: #d7d7d7 solid 1px;
+    font-weight: 700px;
+}
+.trip-type-selection .title{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 15px;
+    cursor: pointer;
 }
 .trip-radio{
     clear: none;
@@ -211,9 +218,6 @@
     cursor: pointer;
     font-weight: bold;
 }
-
-
-
 .book-trip-return-standalone .field-group{
     margin: 0;
 }
@@ -250,8 +254,6 @@
     outline: 2px solid #0f748f;
     outline-offset: 2px;
 }
-
-
 .book-trip-extras-medium-up{
     width: auto;
     list-style: none;
@@ -288,10 +290,6 @@
     cursor: pointer;
     margin-left: 117px;
 }
-
-
-
-
 .book-trip-extras-medium-up a:link{
     text-decoration: none;
 }
@@ -360,15 +358,22 @@
     height: 57.5px;
     width: 478px;   
 }
-.field-label{
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+
+.trip-type-selection .ui-radio+label:before {
+    background: #fff;
+    border: #fff .4em solid;
+    border-radius: 1em;
+    box-shadow: 0 0 0 1px #c6c2c1;
+    content: '';
+    cursor: pointer;
+    display: inline-block;
+    height: .6em;
+    margin: 0 .5em 0 0;
+    width: .6em;
+    vertical-align: -3px;
+}
+.trip-type-selection .ui-radio:checked+label:before {
+    background: #0f748f;
 }
 .field-input-departure{
     padding-left: .857em;
@@ -405,7 +410,7 @@
     width: 960px;
     height: 55px;
     background: #fff;
-    margin-top: 74px;
+    margin-top: 58px;
     position: relative;
 }
 .flight-cell{
