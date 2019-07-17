@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style/calendar.css">
+    <link rel="stylesheet" href="icomoon/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="trip-form" action="#" method="POST">
+        <div class="dates-picker-wrapper splited-date-picker">
+            <div class="button-date-picker-wrapper">
+                <span class="field-label input-filled">出发日期</span>
+                <button class="button-date-picker has-dates field-button">
+                    <span class="button-placeholder">出发日期</span>
+                    <span class="date-selected from has-date">
+                        <span class="instruction">出发日期</span>
+                        <span class="date-full">2019年7月16日 星期二</span>
+                        <span class="date-short">2019年7月16日 星期二</span>
+                    </span>
+                </button>
+            </div>
+            <div class="button-date-picker-wrapper">
+                    <span class="field-label input-filled">回程日期</span>
+                    <button class="button-date-picker has-dates field-button">
+                        <span class="button-placeholder">回程日期</span>
+                        <span class="date-selected from has-date">
+                            <span class="instruction">回程日期</span>
+                            <span class="date-full">2019年7月23日 星期二</span>
+                            <span class="date-short">2019年7月23日 星期二</span>
+                        </span>
+                    </button>
+            </div>
+        </div>
+        <div class="trip-passengers-wrapper">
+            <label class="field-label input-filled" for="trip-passenger-button">乘客/客舱级别</label>
+            <button id="trip-passenger-button" class="button-passenger" >
+                <span class="button-passengers-placeholder">1乘客/客舱级别</span>
+            </button>
+        </div>
+
+        <div class="flight-promotion">
+            <div>
+                <label for="promo-code-label" class="field-label">优惠编号(可选)</label>
+                <input id="promo-code-label" name="promo-code-label" class="field-input"
+                  placeholder="优惠编号(可选)"/>
+                <a class="tooltip-button">
+                    <i class="icon-earth"></i>
+                </a>
+            </div>
+        </div>
+
+        <button></button>
+    </form>
+</body>
+</html>

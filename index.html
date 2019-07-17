@@ -10,7 +10,20 @@
     <link rel="stylesheet" type="text/css" href="style/main-top.css" />
     <link rel="stylesheet" type="text/css" href="style/main-bottom.css" />
     <link rel="stylesheet" type="text/css" href="style/footer.css" />
-  </head>
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+    <script>
+    $(document).ready(function() {
+      $("#opt-cue").click(function() {
+        $("html, body").animate({
+          scrollTop: $("#section-one").offset().top }, {duration: 500,easing: "swing"});
+        return false;
+      });
+     
+    });
+    </script>
+
+</head>
   <body>
     <header>
       <div class="header-top-row">
@@ -83,7 +96,7 @@
                                                      <li>联名卡</li>
                                                  </ul>
                                             </div>
-                                            <div class="mega-column" style="border-right: 1px solid #fff"> 
+                                            <div class="mega-column"> 
                                                  <h4 class="navigation-header">企业差旅及商务旅行</h4>
                                                  <ul>
                                                      <li>计划概述</li>
@@ -207,11 +220,11 @@
                                             </div>
                                             <div class="mega-column-second" style="border-right: 1px solid #fff"> 
                                                   <div>
-                                                        <img src="images/picture3.jpg" width="200px" height="70px">
+                                                        <img src="images/picture3.jpg" width="185px" height="70px">
                                                   </div> 
                                                   <h3 style="color: #0f748f;margin: 0;font-size: 14px;">志在飞跃</h3> 
                                                   <div>
-                                                        <img src="images/picture1.jpg" width="200px" height="70px">
+                                                        <img src="images/picture1.jpg" width="185px" height="70px">
                                                   </div> 
                                                   <h3 style="color: #0f748f;margin: 0;font-size: 14px;">体验全新空中巴士A350航机</h3>
                                             </div>
@@ -269,11 +282,11 @@
                                             </div>
                                             <div class="mega-column-second" style="border-right: 1px solid #fff"> 
                                                   <div>
-                                                        <img src="images/picture3.jpg" width="200px" height="70px">
+                                                        <img src="images/picture3.jpg" width="185px" height="70px">
                                                   </div> 
                                                   <h3 style="color: #0f748f;margin: 0;font-size: 14px;">志在飞跃</h3> 
                                                   <div>
-                                                        <img src="images/picture1.jpg" width="200px" height="70px">
+                                                        <img src="images/picture1.jpg" width="185px" height="70px">
                                                   </div> 
                                                   <h3 style="color: #0f748f;margin: 0;font-size: 14px;">体验全新空中巴士A350航机</h3>
                                             </div>
@@ -324,7 +337,7 @@
                      <div class="btn-call-to-action">立即预定</div>
                  </a>
      
-                 <a class="opt-cue fadeIn">
+                 <a class="opt-cue fadeIn" id="opt-cue">
                      <b>浏览更多优惠</b>
                      <span class="opt-arrow">
                          <i class="icon-home3"></i>
@@ -359,28 +372,6 @@
      
             <div class="book-trip-tab-panel">
                <div class="book-trip">
-                    <!-- <div class="trip-type-selection">
-                        <input type="radio" class="trip-radio" name="trip-type" id="flights" value="0" checked="checked">
-                        <label for="flights" class="label-color">
-                            <i class="trip-radio-label"></i>
-                            <i class="icon-airplane"></i>
-                            <span class="span-color" style="color:rgb(75,75,75)">航班</span>
-                        </label>
-                        <input type="radio" class="trip-radio" name="trip-type" id="hotels" value="1">
-                        <label for="flights" class="label-color">
-                            <i class="trip-radio-label"></i>
-                            <i class="icon-location-hotel"></i>
-                            <span class="span-color">酒店</span>
-                        </label>
-                        <input type="radio" class="trip-radio" name="trip-type" id="package" value="2">
-                        <label for="flights" class="label-color">
-                            <i class="trip-radio-label"></i>
-                            <i class="icon-airplane"></i>
-                            <i class="icon-location-hotel"></i>
-                            <span class="span-color">航班+酒店</span>
-                        </label>
-                    </div> -->
-
                     <div class="trip-type-selection">
                             <input type="radio" class="ui-radio" id="flights" name="trip-type" value="0" checked="checked"/>
                             <label for="flights" class="field-label select-flights">
@@ -437,8 +428,8 @@
                                 <div class="flight-cell">
                                         <div class="field-group">
                                             <span class="span-filled">出发日期</span>
-                                                <button class="depart-date">
-                                                    <span>2019年7月5日 星期五</span>
+                                                <button class="depart-date" type="button">
+                                                    <span> 2019年7月5日 星期五</span>
                                                 </button>
                                         </div>
                                         
@@ -449,8 +440,8 @@
                                 <div class="flight-cell-border">
                                         <div class="field-group">
                                                 <span class="span-filled">回程日期</span>
-                                                    <button class="depart-date">
-                                                        <span>2019年7月5日 星期五</span>
+                                                    <button class="depart-date" type="button">
+                                                        <span> 2019年7月5日 星期五</span>
                                                     </button>
                                         </div>
                                 </div>
@@ -459,22 +450,24 @@
                                 <div class="flight-cell-border">
                                         <div class="field-group">
                                                 <span class="span-filled">乘客/客舱级别</span>
-                                                <button class="depart-date">
-                                                        <span>1 乘客/经济舱</span>
+                                                <button class="depart-date depart-date-passenger" type="button">
+                                                        <span> 1 乘客/经济舱</span>
                                                     </button>
                                         </div>
                                 </div>
                                 <div class="flight-cell-border">
-                                        <div class="field-group">
-                                                <label for="depart-label" class="lable-filled">优惠编号(可选)</label><br>
-                                                <input type="text" id="depart-label" name="depart-label" 
-                                                 class="input-number" placeholder="优惠编号(可选)">
-                                                 <i class="icon-earth"></i>
-                                        </div>
-                                    
+                                    <div class="number">
+                                      <div class="field-group">
+                                        <label for="depart-label" class="lable-filled">优惠编号(可选)</label>
+                                        <input type="text" id="depart-label" name="depart-label" 
+                                            class="input-number" placeholder="优惠编号(可选)"
+                                            onfocus="this.placeholder=''" onblur="this.placeholder='优惠编号(可选)'">
+                                        <!-- <i class="icon-earth"></i> -->
+                                      </div>
+                                    </div>
                                 </div>
                                 <div class="flight-cell-border flight-arrive-color">
-                                    <button class="button-submit">
+                                    <button class="button-submit" type="button">
                                         <span>搜索航班</span>
                                         <i class="icon-home3"></i>
                                     </button>
@@ -497,7 +490,7 @@
             </div>
          </div>
       <div class="tertiarypar">
-          <div class="section-one">
+          <div class="section-one" id="section-one">
               <div class="header">
                   <span class="description-multiple-origins">看始发地的最新报价</span>
                   <div class="description-city">
@@ -827,79 +820,88 @@
                     </ul>
                 </div>
         
-                <div class="subscrie-travel">
-                        <div class="subscribe-newsletter-wrapper">
-                            <h3 class="subscrie-header">订阅我们的电子期刊</h3>
-                            <div class="sub-header">
-                                    在收件箱直接收取我们的最新优惠及独家礼遇。
-                                    <div class="other-sub-header">
-                                            登记国泰航空注册账户，以收取我们的时事通讯。
-                                            作为账户持有者，您更可轻松便捷地管理旅程。请注意，只有 18 岁或以上的人士方可注册。
+                <div class="subscribe-newsletter-container">
+                        <div class="section-wrapper">
+                            <div class="subscribe-newsletter">
+                                <div class="subscribe-newsletter-wrapper">
+                                    <h3 class="header">订阅我们的电子期刊</h3>
+                                    <div class="sub-header">
+                                        在收件箱直接收取我们的最新优惠及独家礼遇。
+                                        <div class="other-sub-header">
+                                                登记国泰航空注册账户，以收取我们的时事通讯。作为账户持有者，
+                                                您更可轻松便捷地管理旅程。请注意，只有 18 岁或以上的人士方可注册。
+                                        </div>
                                     </div>
-                                    
-                            </div>
-                            <div class="member-wrapper">
-                                <div class="radio-group">
-                                    <input type="radio" name="member-checek" value="N" id="no-member" checked>
-                                    <label for="no-member" class="member-label">登记账户即可定阅</label>
-                                    <input type="radio" name="member-checek" value="Y" id="member">
-                                    <label for="member" class="member-label">现有会员敬请登录并订阅</label>
+                                    <div class="member-wrapper">
+                                        <div class="radio-group">
+                                            <input type="radio" class="ui-radio" name="member-check" value="N" id="no-member" checked/>
+                                            <label for="no-member" class="field-label">登录账号即可定阅 </label>
+                                            <input type="radio" class="ui-radio" name="member-check" value="Y" id="member"/>
+                                            <label for="member" class="field-label">现有会员敬请登录并定阅 </label>
+                                        </div>
+                                    </div>
+                
+                                    <form class="subscription-form">
+                                        <div class="form-wrapper">
+                                            <div class="field-group custom-select-wrapper">
+                                                <label class="field-label dropdown-label-selected">称谓</label>
+                                                <span class="custom-select-trigger dropdown-span-selected" aria-hidden="true">
+                                                    <span class="custom-select-text">先生</span>
+                                                    <i class="icon icon-location-hotel" aria-hidden="true"></i>
+                                                </span>
+                                                <select class="custom-select-control">
+                                                        <option>先生</option>
+                                                        <option>女士</option>
+                                                        <option>太太</option>
+                                                        <option>博士</option>
+                                                        <option>教授</option>
+                                                </select>
+                                            </div>
+                
+                                            <div class="field-group cx-inputfield input-wrapper">
+                                                <label class="field-label" for="familyName">姓氏</label>
+                                                <input id="familyName" name="familyName" class="field-input" placeholder="姓氏"/>
+                                            </div>
+                
+                                            <div class="field-group cx-inputfield input-wrapper ">
+                                                <label class="field-label" for="givenname">名字</label>
+                                                <input id="givenname" name="givenname" class="field-input" placeholder="名字"/>
+                                            </div>
+                
+                                            <div class="field-group cx-inputfield email-address-wrapper">
+                                                <label class="field-label" for="subscription-email">电邮地址(这将会是你的用户名)</label>
+                                                <input class="field-input" id="subscription-email" name="email" type="text"
+                                                placeholder="电邮地址(这将会是你的用户名)"/>
+                                            </div>
+                
+                                            <div class=" custom-select-wrapper country-selector-container">
+                                                    <label class="field-label dropdown-label-selected">首选出发国家/地区</label>
+                                                    <span class="custom-select-trigger dropdown-span-selected" aria-hidden="true">
+                                                        <span class="custom-select-text">中国内地</span>
+                                                        <i class="icon icon-location-hotel" aria-hidden="true"></i>
+                                                    </span>
+                                                    <select class="custom-select-control">
+                                                            <option>中国内地</option>
+                                                                <option>中国香港</option>
+                                                                <option>德国</option>
+                                                                <option>美国</option>
+                                                                <option>澳大利亚</option>
+                                                                <option>加拿大</option>
+                                                                <option>法国</option>
+                                                                <option>印度</option>
+                                                    </select>
+                                            </div>
+                                            <button class="button-subscribe large-up disabled">
+                                                <a>订阅</a>
+                                            </button>
+                                        </div>
+                                    </form>
+                
                                 </div>
                             </div>
-    
-                            <form>
-                                <div class="form-warp">
-                                    <div class="customer-select-wrapper">
-                                        <span>
-                                                <label style="font-size: 10px; margin-left: 12px">称谓</label><br>
-                                                <span style="margin-left: 10px">先生</span>
-                                        </span>
-                                        <!-- <div class="select-icon">  
-                                                <i class="icon-home3" aria-hidden="true" ></i>   
-                                        </div> -->
-                                        
-                                        <select class="custom-select-control">
-                                            <option>先生</option>
-                                            <option>女士</option>
-                                            <option>太太</option>
-                                            <option>博士</option>
-                                            <option>教授</option>
-                                        </select>
-                                    </div>
-                                    <div class="cx-inputfield">
-                                        <input type="text" class="cx-input" placeholder="姓氏">
-                                    </div>
-                                    <div class="cx-inputfield">
-                                        <input type="text" class="cx-input" placeholder="名字">
-                                    </div>
-                                    <div class="country-select">
-                                            <input type="text" class="select-input" placeholder="电邮地址(这将会是你的用户名)">
-                                    </div>
-                                    <div class="country-select">
-                                            <span>
-                                                    <label style="font-size: 10px; margin-left: 12px">首先出发国家/地区</label><br>
-                                                    <span style="margin-left: 10px">中国内地</span>
-                                            </span>
-                                            
-                                            
-                                            <select class="custom-select-control">
-                                                <option>中国内地</option>
-                                                <option>中国香港</option>
-                                                <option>德国</option>
-                                                <option>美国</option>
-                                                <option>澳大利亚</option>
-                                                <option>加拿大</option>
-                                                <option>法国</option>
-                                                <option>印度</option>
-                                            </select>
-                                    </div>
-                                    
-                                    <button class="country-select-button">订阅</button>
-                                    
-                                    
-                                </div>
-                            </form>
+                
                         </div>
+                        
                     </div>
       </div>
     </main>
