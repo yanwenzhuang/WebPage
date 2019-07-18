@@ -34,7 +34,7 @@ textarea{
     height: 100%;
     font-size: 12px;
     /* font-family: Microsoft YaHei; */
-    font-family: 'Aktiv Grotesk W01 SC Regular',sans-serif;
+    /* font-family: 'Aktiv Grotesk W01 SC Regular',sans-serif; */
     margin-left: auto;
     margin-right: auto;
 }
@@ -91,11 +91,11 @@ ul{
     color:#4C4C4C;
     /* height: 100%; */
 }
-.navigation a:hover {
-    color: red;
+.navigation .first-level-trigger:hover {
+    color: rgb(199, 12, 12);
     text-decoration: none;
     cursor: pointer;
-    border-bottom: 1px double red;
+    border-bottom: 3px solid rgb(199, 12, 12);
 }
 .navigation-item-panel{
     width: 100%;
@@ -108,7 +108,7 @@ ul{
     display: none;
     margin-top: 71.5px;
 }
-.navigation a:hover .navigation-item-panel{
+.navigation .first-level-trigger:hover .navigation-item-panel{
     display: block;
 }
 .panel-content-wrapper-one{
